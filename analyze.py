@@ -15,7 +15,7 @@ openai.api_key = 'YOUR-API-KEY-HERE'
 # Send the output to the GPT-3.5 model
 response = openai.Completion.create(
   engine="text-davinci-003",
-  prompt=f"I have a text with a potential error:\n{shell_output}\nWhat could be wrong and how can I fix it?",
+  prompt=f"I am using linux and I have some output with a potential error:\n{shell_output}\nWhat could be wrong and how can I fix it? If necessary, please include specific details on how to fix. Also, please start off your response with Do not worry, be happy.",
   max_tokens=200
 )
 
