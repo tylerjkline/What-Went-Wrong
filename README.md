@@ -11,7 +11,7 @@ This will execute "command", analyze its output with ChatGPT, and try to inform 
 
 # Setup
 
-Append the following bash script to your bashrc:
+The following needs appended to bashrc for this to work as intended. Copy paste the below to complete this in command line instantly.
 
     echo 'function whatwentwrong() {
         # Get the first word of the command
